@@ -20,17 +20,17 @@
 ;			- Közbünső folyamatként:  hozzáadni 3 (3D), ha nagyobb mint 5(5D) a BCD digit értéke
 ;
 ;	Erre a következő gondolatmeneten indultam el:
-;	---------------------------------------------------------------------------------------------------------------------
-;	|					Ez a rész lesz a kimenet (mentés előtt)	|	Bemenet felső bátjta 	|		Bemenet alsóbátjta	|
-;	---------------------------------------------------------------------------------------------------------------------
-;	|	R5 regiszter	|	R4 regiszter	|	R3 regiszter	|	R2 regiszter			|		R1 regiszter		|
-;	|   ----_xxxx		|   xxxx_xxxx		|	xxxx_xxxx		|	xxxx_xxxx				|		xxxx_xxxx			|
-;	---------------------------------------------------------------------------------------------------------------------
+;	-------------------------------------------------------------------------------------------------------------------------------------------------
+;	|					Ez a rész lesz a kimenet (mentés előtt)	|	Bemenet felső bátjta 	|	Bemenet alsóbátjta	|
+;	------------------------------------------------------------------------------------------------------------------------------------------------|
+;	|	R5 regiszter	|	R4 regiszter	|	R3 regiszter	|	R2 regiszter			|	R1 regiszter		|
+;	|   ----_xxxx		|   xxxx_xxxx		|	xxxx_xxxx		|	xxxx_xxxx		|	xxxx_xxxx		|
+;	-------------------------------------------------------------------------------------------------------------------------------------------------
 ;	Legyen ez az ábra az 1.0-ás ábra
 ;	Ahol az < x > azon biteket jelenti amelyek lényegesek a feladat megoldása szempontjából, míg
 ;	a < - > jelölik a lényegtelen (don't care) biteket
 ;
-;	R5- ben van 10^4-es nagyságrend tartalma					(továbbiakban R5_bottom) hisz a felső lényegtelen mi
+;	R5- ben van 10^4-es nagyságrend tartalma			(továbbiakban R5_bottom) hisz a felső lényegtelen mi
 ;	R4- ben van 10^3-es nagyságrend tartalma (felső 4 bitje) 	(továbbiakban R4_upper)
 ;	R4- ben van 10^2-es nagyságrend tartalma (alsó 	4 bitje)	(továbbiakban R4_bottom)
 ;	R3- ben van 10^1-es nagyságrend tartalma (felső 4 bitje)	(továbbiakban R3_upper)
