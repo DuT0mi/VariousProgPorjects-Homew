@@ -1,0 +1,4 @@
+- Embedded and Ambient Systems HW
+  - Specification:
+    - Hardware/Starter kit: EFM32GG-BRD2200A-A03 ( Giant Gecko ~ SiliconLabs)
+    - To be implemented task: Banana game, controlling with buttons and other meta tasks like difficulty changer/showing the result/some "GUI"/..
