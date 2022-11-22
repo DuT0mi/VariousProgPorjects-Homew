@@ -18,7 +18,7 @@ int main(void){
 		CHIP_Init();
 	/*LCD*/
 		SegmentLCD_Init(false);
-	/**Gecko symbol :) /
+	/*Gecko symbol :) */
 		SegmentLCD_Symbol(LCD_SYMBOL_GECKO,1);
 	/*Speed setup*/
 		CMU_HFRCOBandSet(cmuHFRCOBand_1MHz);
