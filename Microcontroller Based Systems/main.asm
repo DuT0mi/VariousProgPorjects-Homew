@@ -2,7 +2,7 @@
 ; #Mikrokontroller alapú rendszerek házi feladat
 ; #Konzulens: 	Kovács Adorján
 ; #Készítette: 	Dudás Tamás Alex
-; #Neptun code: DRNME9
+; #Neptun code: XXXXXX
 ; 	#Feladat leírása:
 ;		Regiszeterekben található 16 bites előjeles egész átalakítása 5db BCD kódú számmá + előjellé
 ; 		Az eredményt 3 regiszterben kapjuk vissza
